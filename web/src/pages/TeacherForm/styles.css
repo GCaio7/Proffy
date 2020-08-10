@@ -1,0 +1,14 @@
+#page-teacher-form{
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-teacher-form p{
+  color: var(--color-text-in-primary);
+  margin: 2.6rem auto;
+}
+
+#page-teacher-form .input-block{
+  display: flex;
+  flex-direction: column;
+}

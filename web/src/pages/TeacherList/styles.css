@@ -36,15 +36,15 @@
 }
 
 #search-teachers .input-block:focus-within::after{
-  width: calc(100% - 3.2rem);
+  width: calc(100% - 1.2rem);
   height: 2px;
   content: "";
   background: var(--color-primary-light);
   position: absolute;
-  left: 1.6rem;
-  right: 1.6rem;
+  left: 0.6rem;
+  right: 0.6rem;
   bottom: 0;
-  border-radius: 40%;
+  border-radius: 30%;
 }
 
 #page-teacher-list main{
@@ -69,7 +69,11 @@
   #search-teachers .input-block + .input-block{
     margin-top: 0;
   }
-
+  
+  #search-teachers .input-block input{
+    box-shadow: 0 2px 2px var(--color-text-complement);
+  }
+  
   #page-teacher-list main{
     padding: 3.2rem 0;
     max-width: 740px;

@@ -11,7 +11,7 @@ function TeacherItem(){
 
       <img src="https://image.flaticon.com/icons/svg/147/147144.svg" alt="Usuário"/>
       <div>
-        <strong>Usuário</strong>
+        <strong>Professor</strong>
         <span>Matéria</span>
       </div>
     </header>
